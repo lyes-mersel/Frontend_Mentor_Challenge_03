@@ -3,7 +3,7 @@ Interactive Rating Component
 
 
 # Frontend Mentor - Interactive Rating Component Solution
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive Rating Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
 ### Screenshot
