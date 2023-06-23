@@ -1,0 +1,131 @@
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+}
+
+h2 {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 10%, 30%);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px;
+    padding: 6px 15px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;;
+    color: hsl(217, 12%, 63%);
+    margin: 10px;
+}
+
+.state {
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+/* Rating State */
+.icon-star {
+    background-color: hsl(216, 10%, 30%);
+    padding: 10px;
+    margin: 10px 10px 20px;
+    border-radius: 50%;
+
+}
+
+.star-btn {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 10%, 30%);
+    height: 50px;
+    width: 50px;
+    margin: 20px 9px;
+    border: 0;
+    border-radius: 50%;
+}
+:hover.star-btn {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+.btn-clicked {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.submit-btn {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    height: 50px;
+    width: 340px;
+    margin: 10px;
+    border: 0;
+    border-radius: 50px;
+}
+:hover.submit-btn {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* Thanks State */
+#thx-state {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.thx-image {
+    margin: 20px;
+}
+
+
+/* Footer */
+footer {
+    color: hsl(0, 0%, 100%);
+    margin: 10px;    
+}
+
+.attribution { 
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(217, 12%, 63%);
+}
+
+
+/* Small Screens */
+@media screen and (max-width: 500px) {
+    .state {
+        width: 300px;
+        margin: 150px auto;
+        padding: 10px;
+    }
+
+    .star-btn {
+        height: 40px;
+        width: 40px;
+        margin: 20px 5px;
+    }
+
+    .submit-btn {
+        width: 250px;
+        margin: 10px;
+    }
+}
